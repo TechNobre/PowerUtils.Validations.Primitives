@@ -63,6 +63,7 @@ dotnet add package PowerUtils.Validations.Primitives
 ### Helpers <a name="Helpers"></a>
 
 #### GetMinFormatted <a name="Helpers.GetMinFormatted"></a>
+Supports the types `string`, `int`, `uint`, `long`, `ulong`, `float`, `double`, `decimal`, `DateTime`
 
 ```csharp
 // result = "MIN:14"
@@ -70,6 +71,7 @@ var result = Helpers.GetMinFormatted(14);
 ```
 
 #### GetMaxFormatted <a name="Helpers.GetMaxFormatted"></a>
+Supports the types `string`, `int`, `uint`, `long`, `ulong`, `float`, `double`, `decimal`, `DateTime`
 
 ```csharp
 // result = "MAX:1244574"

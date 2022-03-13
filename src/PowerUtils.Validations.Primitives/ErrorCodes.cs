@@ -1,4 +1,6 @@
-﻿namespace PowerUtils.Validations
+﻿using System;
+
+namespace PowerUtils.Validations
 {
     public static class ErrorCodes
     {
@@ -48,6 +50,9 @@
         public static string GetMinFormatted(decimal min)
             => string.Format(PATTERN_ERROR_CODE_WITH_LIMIT, MIN, min.ToString().Replace(",", "."));
 
+        public static string GetMinFormatted(DateTime min)
+            => string.Format(PATTERN_ERROR_CODE_WITH_LIMIT, MIN, min.ToString("yyyy-MM-dd"));
+
         public static string GetMaxFormatted(string max)
             => string.Format(PATTERN_ERROR_CODE_WITH_LIMIT, MAX, max);
 
@@ -71,5 +76,8 @@
 
         public static string GetMaxFormatted(decimal max)
             => string.Format(PATTERN_ERROR_CODE_WITH_LIMIT, MAX, max.ToString().Replace(",", "."));
+
+        public static string GetMaxFormatted(DateTime max)
+            => string.Format(PATTERN_ERROR_CODE_WITH_LIMIT, MAX, max.ToString("yyyy-MM-dd"));
     }
 }

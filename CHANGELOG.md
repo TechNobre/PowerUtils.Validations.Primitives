@@ -22,6 +22,8 @@
 - Added helper `ErrorCodes.GetMaxFormatted(float max);`;
 - Added helper `ErrorCodes.GetMinFormatted(decimal min);`;
 - Added helper `ErrorCodes.GetMaxFormatted(decimal max);`;
+- Added helper `ErrorCodes.GetMinFormatted(DateTime min);`;
+- Added helper `ErrorCodes.GetMaxFormatted(DateTime max);`;
 
 
 ### Breaking Changes

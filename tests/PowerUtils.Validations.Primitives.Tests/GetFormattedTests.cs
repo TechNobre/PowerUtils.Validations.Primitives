@@ -1,4 +1,7 @@
-﻿namespace PowerUtils.Validations.Primitives.Tests;
+﻿using System;
+using System.Globalization;
+
+namespace PowerUtils.Validations.Primitives.Tests;
 
 public class GetFormattedTests
 {
@@ -248,6 +251,48 @@ public class GetFormattedTests
     {
         // Arrange && Act
         var act = ErrorCodes.GetMaxFormatted(input);
+
+
+        // Assert
+        act.Should()
+            .Be(expected);
+    }
+
+
+
+    [Theory]
+    [InlineData("2000-12-12", "MIN:2000-12-12")]
+    [InlineData("1987-01-11", "MIN:1987-01-11")]
+    [InlineData("2099-11-01", "MIN:2099-11-01")]
+    [InlineData("1977-02-21", "MIN:1977-02-21")]
+    public void GetMinFormatted_DateTime_Code(string input, string expected)
+    {
+        // Arrange
+        var dateTime = DateTime.ParseExact(input, "yyyy-MM-dd", CultureInfo.InvariantCulture);
+
+
+        // Act
+        var act = ErrorCodes.GetMinFormatted(dateTime);
+
+
+        // Assert
+        act.Should()
+            .Be(expected);
+    }
+
+    [Theory]
+    [InlineData("2000-12-12", "MAX:2000-12-12")]
+    [InlineData("1987-01-11", "MAX:1987-01-11")]
+    [InlineData("2099-11-01", "MAX:2099-11-01")]
+    [InlineData("1977-02-21", "MAX:1977-02-21")]
+    public void GetMaxFormatted_DateTime_Code(string input, string expected)
+    {
+        // Arrange
+        var dateTime = DateTime.ParseExact(input, "yyyy-MM-dd", CultureInfo.InvariantCulture);
+
+
+        // Act
+        var act = ErrorCodes.GetMaxFormatted(dateTime);
 
 
         // Assert
