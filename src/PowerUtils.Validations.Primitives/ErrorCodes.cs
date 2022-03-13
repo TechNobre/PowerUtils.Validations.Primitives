@@ -53,6 +53,9 @@ namespace PowerUtils.Validations
         public static string GetMinFormatted(DateTime min)
             => string.Format(PATTERN_ERROR_CODE_WITH_LIMIT, MIN, min.ToString("yyyy-MM-dd"));
 
+        public static string GetMinFormatted<TValue>(TValue min)
+            => string.Format(PATTERN_ERROR_CODE_WITH_LIMIT, MIN, min.ToString().Replace(",", "."));
+
         public static string GetMaxFormatted(string max)
             => string.Format(PATTERN_ERROR_CODE_WITH_LIMIT, MAX, max);
 
@@ -79,5 +82,8 @@ namespace PowerUtils.Validations
 
         public static string GetMaxFormatted(DateTime max)
             => string.Format(PATTERN_ERROR_CODE_WITH_LIMIT, MAX, max.ToString("yyyy-MM-dd"));
+
+        public static string GetMaxFormatted<TValue>(TValue max)
+            => string.Format(PATTERN_ERROR_CODE_WITH_LIMIT, MAX, max.ToString().Replace(",", "."));
     }
 }

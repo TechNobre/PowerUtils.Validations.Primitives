@@ -24,6 +24,8 @@
 - Added helper `ErrorCodes.GetMaxFormatted(decimal max);`;
 - Added helper `ErrorCodes.GetMinFormatted(DateTime min);`;
 - Added helper `ErrorCodes.GetMaxFormatted(DateTime max);`;
+- Added helper `ErrorCodes.GetMinFormatted<TValue>(TValue min);`;
+- Added helper `ErrorCodes.GetMaxFormatted<TValue>(TValue max);`;
 
 
 ### Breaking Changes

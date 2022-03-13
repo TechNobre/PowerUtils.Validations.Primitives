@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Globalization;
+using PowerUtils.Validations.Primitives.Tests.Fakes;
 
 namespace PowerUtils.Validations.Primitives.Tests;
 
@@ -298,5 +299,27 @@ public class GetFormattedTests
         // Assert
         act.Should()
             .Be(expected);
+    }
+
+
+    [Theory]
+    [InlineData(0, "MIN:0", "MAX:0")]
+    [InlineData(10, "MIN:10", "MAX:10")]
+    [InlineData(-45, "MIN:-45", "MAX:-45")]
+    public void GetFormatted_Generic_Code(int input, string minExpected, string maxExpected)
+    {
+        // Arrange
+        var obj = new FakeObj<int>(input, input);
+
+
+        // Act
+        var (minFormatted, maxFormatted) = obj.GetFormatted();
+
+
+        // Assert
+        minFormatted.Should()
+            .Be(minExpected);
+        maxFormatted.Should()
+            .Be(maxExpected);
     }
 }
