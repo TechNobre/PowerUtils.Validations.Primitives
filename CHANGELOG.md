@@ -9,9 +9,9 @@
 - Moved the attributes from [PowerUtils.Validations](https://github.com/TechNobre/PowerUtils.Validations) project to this one so it can be used individually;
 
 
-### Updates
+### New Features
 
-- Added new constant `DUPLICATED` and `EXPIRED`;
+- Added new constants `DUPLICATED` and `EXPIRED`;
 - Added helper `ErrorCodes.GetMinFormatted(int min);`;
 - Added helper `ErrorCodes.GetMaxFormatted(int max);`;
 - Added helper `ErrorCodes.GetMinFormatted(uint min);`;
