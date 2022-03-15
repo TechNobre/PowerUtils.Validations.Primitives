@@ -3,7 +3,7 @@
 
 
 
-## [1.0.0] - 2022-03-13
+## [1.0.0] - 2022-03-15
 
 - Kickoff;
 - Moved the attributes from [PowerUtils.Validations](https://github.com/TechNobre/PowerUtils.Validations) project to this one so it can be used individually;
