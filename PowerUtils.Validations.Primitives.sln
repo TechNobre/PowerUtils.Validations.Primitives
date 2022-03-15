@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.project", "1.project", "{F5FFEE7D-E01C-4453-ABEB-A4BDBCB4E376}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		CHANGELOG.md = CHANGELOG.md
+		global.json = global.json
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.cicd", "2.cicd", "{1AF4FDBB-069B-41ED-98DF-7E350BD202EF}"
+	ProjectSection(SolutionItems) = preProject
+		.github\dependabot.yml = .github\dependabot.yml
+		.github\workflows\publish-nuget.yml = .github\workflows\publish-nuget.yml
+		.github\workflows\sonarcloud.yml = .github\workflows\sonarcloud.yml
+		.github\workflows\test-project.yml = .github\workflows\test-project.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.src", "3.src", "{67F28D51-2A54-4059-992B-F257F2349107}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.tests", "4.tests", "{49485640-3F4A-44D1-AACB-E2FB59EDB723}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerUtils.Validations.Primitives", "src\PowerUtils.Validations.Primitives\PowerUtils.Validations.Primitives.csproj", "{22718866-FF12-4D1D-BF10-3BC4145D1DBD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerUtils.Validations.Primitives.Tests", "tests\PowerUtils.Validations.Primitives.Tests\PowerUtils.Validations.Primitives.Tests.csproj", "{8B60E655-5C70-443A-9B58-D0716CD12F91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22718866-FF12-4D1D-BF10-3BC4145D1DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22718866-FF12-4D1D-BF10-3BC4145D1DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22718866-FF12-4D1D-BF10-3BC4145D1DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22718866-FF12-4D1D-BF10-3BC4145D1DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B60E655-5C70-443A-9B58-D0716CD12F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B60E655-5C70-443A-9B58-D0716CD12F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B60E655-5C70-443A-9B58-D0716CD12F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B60E655-5C70-443A-9B58-D0716CD12F91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22718866-FF12-4D1D-BF10-3BC4145D1DBD} = {67F28D51-2A54-4059-992B-F257F2349107}
+		{8B60E655-5C70-443A-9B58-D0716CD12F91} = {49485640-3F4A-44D1-AACB-E2FB59EDB723}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCD57E1E-915B-416A-9166-B89545D0BC13}
+	EndGlobalSection
+EndGlobal
