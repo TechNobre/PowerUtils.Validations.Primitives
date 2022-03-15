@@ -39,7 +39,7 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\PowerUtils.Validations.Primitives\PowerUtils.Validations.Primitives.csproj" />
+    <ProjectReference Include="..\..\src\PowerUtils.Validations.Primitives.csproj" />
   </ItemGroup>
 
 

@@ -25,7 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.src", "3.src", "{67F28D51
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.tests", "4.tests", "{49485640-3F4A-44D1-AACB-E2FB59EDB723}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerUtils.Validations.Primitives", "src\PowerUtils.Validations.Primitives\PowerUtils.Validations.Primitives.csproj", "{22718866-FF12-4D1D-BF10-3BC4145D1DBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerUtils.Validations.Primitives", "src\PowerUtils.Validations.Primitives.csproj", "{22718866-FF12-4D1D-BF10-3BC4145D1DBD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerUtils.Validations.Primitives.Tests", "tests\PowerUtils.Validations.Primitives.Tests\PowerUtils.Validations.Primitives.Tests.csproj", "{8B60E655-5C70-443A-9B58-D0716CD12F91}"
 EndProject
