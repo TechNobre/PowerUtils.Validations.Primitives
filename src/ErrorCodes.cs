@@ -16,10 +16,13 @@ namespace PowerUtils.Validations
         public const string MIN = "MIN";
         public const string MAX = "MAX";
 
+        public const string MIN_ZERO = "MIN:0";
+        public const string MAX_ZERO = "MAX:0";
+
         public const string MIN_DATETIME_UTCNOW = "MIN:DATETIME_UTCNOW";
         public const string MAX_DATETIME_UTCNOW = "MAX:DATETIME_UTCNOW";
 
-        [System.Obsolete("This constant is deprecated. It will be removed on 2022/09/30. Use the new constant 'DUPLICATED'")]
+        [Obsolete("This constant is deprecated. It will be removed on 2022/09/30. Use the new constant 'DUPLICATED'")]
         public const string ALREADY_EXISTS = "ALREADY_EXISTS";
         public const string DUPLICATED = "DUPLICATED";
 
