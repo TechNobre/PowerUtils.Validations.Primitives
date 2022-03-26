@@ -3,6 +3,17 @@
 
 
 
+## [1.1.0] - 2022-03-26
+[Full Changelog](https://github.com/TechNobre/PowerUtils.Validations.Primitives/compare/v1.0.0...v1.1.0)
+
+
+### New Features
+
+- Added new constants `MIN_ZERO` and `MAX_ZERO`;
+
+
+
+
 ## [1.0.0] - 2022-03-15
 
 - Kickoff;

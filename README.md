@@ -53,6 +53,8 @@ dotnet add package PowerUtils.Validations.Primitives
 - `FORBIDDEN`;
 - `MIN`;
 - `MAX`;
+- `MIN_ZERO` _(MIN:0)_;
+- `MAX_ZERO` _(MAX:0)_;
 - `MIN_DATETIME_UTCNOW` _(MIN:DATETIME_UTCNOW)_;
 - `MAX_DATETIME_UTCNOW` _(MAX:DATETIME_UTCNOW)_;
 - `DUPLICATED`;
