@@ -57,6 +57,10 @@ dotnet add package PowerUtils.Validations.Primitives
 - `MAX_ZERO` _(MAX:0)_;
 - `MIN_DATETIME_UTCNOW` _(MIN:DATETIME_UTCNOW)_;
 - `MAX_DATETIME_UTCNOW` _(MAX:DATETIME_UTCNOW)_;
+- `MIN_LATITUDE` _(MIN:-90)_;
+- `MAX_LATITUDE` _(MAX:90)_;
+- `MIN_LONGITUDE` _(MIN:-180)_;
+- `MAX_LONGITUDE` _(MAX:180)_;
 - `DUPLICATED`;
 - `NOT_FOUND`;
 - `EXPIRED`;

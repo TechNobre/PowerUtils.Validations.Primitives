@@ -3,6 +3,17 @@
 
 
 
+## [1.2.0] - 2022-03-30
+[Full Changelog](https://github.com/TechNobre/PowerUtils.Validations.Primitives/compare/v1.1.0...v1.2.0)
+
+
+### New Features
+
+- Added new constants `MIN_LATITUDE`, `MAX_LATITUDE`, `MIN_LONGITUDE` and `MAX_LONGITUDE`;
+
+
+
+
 ## [1.1.0] - 2022-03-26
 [Full Changelog](https://github.com/TechNobre/PowerUtils.Validations.Primitives/compare/v1.0.0...v1.1.0)
 
