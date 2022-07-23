@@ -13,27 +13,29 @@
 [![License: MIT](https://img.shields.io/github/license/TechNobre/PowerUtils.Validations.Primitives.svg)](https://github.com/TechNobre/PowerUtils.Validations.Primitives/blob/main/LICENSE)
 
 
+- [Support](#support-to)
+- [How to use](#how-to-use)
+  - [Interfaces](#Interfaces)
+  - [Constants](#Constants)
+  - [Helpers](#Helpers)
+    - [GetMinFormatted](#Helpers.GetMinFormatted)
+    - [GetMaxFormatted](#Helpers.GetMaxFormatted)
+- [Contribution](#contribution)
+- [License](./LICENSE)
+- [Changelog](./CHANGELOG.md)
 
-## Support to
-- .NET 3.1
-- .NET 5.0
+
+
+## Support to <a name="support-to"></a>
 - .NET 6.0
+- .NET 5.0
+- .NET 3.1
 
 
 
-## Features
+## How to use <a name="how-to-use"></a>
 
-- [Constants](#Constants)
-- [Helpers](#Helpers)
-  - [GetMinFormatted](#Helpers.GetMinFormatted)
-  - [GetMaxFormatted](#Helpers.GetMaxFormatted)
-
-
-## Documentation
-
-### How to use
-
-#### Install NuGet package <a name="Installation"></a>
+### Install NuGet package <a name="Installation"></a>
 This package is available through Nuget Packages: https://www.nuget.org/packages/PowerUtils.Validations.Primitives
 
 **Nuget**
@@ -94,20 +96,6 @@ The constant `ALREADY_EXISTS` will be removed in 2022/09/30.
 
 
 
-## Contribution
+## Contribution<a name="contribution"></a>
 
-*Help me to help others*
-
-
-
-
-## LICENSE
-
-[MIT](https://github.com/TechNobre/PowerUtils.Validations.Primitives/blob/main/LICENSE)
-
-
-
-
-## Changelog
-
-[Here](./CHANGELOG.md)
+If you have any questions, comments, or suggestions, please open an [issue](https://github.com/TechNobre/PowerUtils.Validations.Primitives/issues/new/choose) or create a [pull request](https://github.com/TechNobre/PowerUtils.Validations.Primitives/compare)
