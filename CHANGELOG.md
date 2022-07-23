@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/TechNobre/PowerUtils.Validations.Primitives/compare/v1.2.1...v1.2.2) (2022-07-23)
+
+
+### Bug Fixes
+
+* Tag version v1.2.2 ([353b83e](https://github.com/TechNobre/PowerUtils.Validations.Primitives/commit/353b83e7722c68e5abcc6ce2285b83c997159af2))
+
 # [1.2.1](https://github.com/TechNobre/PowerUtils.Validations.Primitives/compare/v1.2.0...v1.2.1) (2022-07-23)
 
 
