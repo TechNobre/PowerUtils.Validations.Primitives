@@ -12,7 +12,7 @@
     <AssemblyName>PowerUtils.Validations.Primitives</AssemblyName>
     <RootNamespace>PowerUtils.Validations</RootNamespace>
 
-    <Version>1.2.0</Version>
+    <Version>1.2.2</Version>
 
     <PackageOutputPath>bin\</PackageOutputPath>
     </PropertyGroup>
