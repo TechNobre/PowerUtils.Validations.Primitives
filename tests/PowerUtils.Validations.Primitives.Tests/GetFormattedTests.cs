@@ -10,7 +10,7 @@ public class GetFormattedTests
     [InlineData("0", "MIN:0")]
     [InlineData("10", "MIN:10")]
     [InlineData("-45", "MIN:-45")]
-    public void GetMinFormatted_String_Code(string input, string expected)
+    public void String_GetMinFormatted_Code(string input, string expected)
     {
         // Arrange && Act
         var act = ErrorCodes.GetMinFormatted(input);
@@ -25,7 +25,7 @@ public class GetFormattedTests
     [InlineData("0", "MAX:0")]
     [InlineData("10", "MAX:10")]
     [InlineData("-45", "MAX:-45")]
-    public void GetMaxFormatted_String_Code(string input, string expected)
+    public void String_GetMaxFormatted_Code(string input, string expected)
     {
         // Arrange && Act
         var act = ErrorCodes.GetMaxFormatted(input);
@@ -41,7 +41,7 @@ public class GetFormattedTests
     [InlineData(0, "MIN:0")]
     [InlineData(10, "MIN:10")]
     [InlineData(-45, "MIN:-45")]
-    public void GetMinFormatted_Int_Code(int input, string expected)
+    public void Int_GetMinFormatted_Code(int input, string expected)
     {
         // Arrange && Act
         var act = ErrorCodes.GetMinFormatted(input);
@@ -56,69 +56,7 @@ public class GetFormattedTests
     [InlineData(0, "MAX:0")]
     [InlineData(10, "MAX:10")]
     [InlineData(-45, "MAX:-45")]
-    public void GetMaxFormatted_Int_Code(int input, string expected)
-    {
-        // Arrange && Act
-        var act = ErrorCodes.GetMaxFormatted(input);
-
-
-        // Assert
-        act.Should()
-            .Be(expected);
-    }
-
-
-    [Theory]
-    [InlineData(0, "MIN:0")]
-    [InlineData(10, "MIN:10")]
-    [InlineData(45, "MIN:45")]
-    public void GetMinFormatted_UInt_Code(uint input, string expected)
-    {
-        // Arrange && Act
-        var act = ErrorCodes.GetMinFormatted(input);
-
-
-        // Assert
-        act.Should()
-            .Be(expected);
-    }
-
-    [Theory]
-    [InlineData(0, "MAX:0")]
-    [InlineData(10, "MAX:10")]
-    [InlineData(45, "MAX:45")]
-    public void GetMaxFormatted_UInt_Code(uint input, string expected)
-    {
-        // Arrange && Act
-        var act = ErrorCodes.GetMaxFormatted(input);
-
-
-        // Assert
-        act.Should()
-            .Be(expected);
-    }
-
-
-    [Theory]
-    [InlineData(0, "MIN:0")]
-    [InlineData(10, "MIN:10")]
-    [InlineData(-45, "MIN:-45")]
-    public void GetMinFormatted_Long_Code(long input, string expected)
-    {
-        // Arrange && Act
-        var act = ErrorCodes.GetMinFormatted(input);
-
-
-        // Assert
-        act.Should()
-            .Be(expected);
-    }
-
-    [Theory]
-    [InlineData(0, "MAX:0")]
-    [InlineData(10, "MAX:10")]
-    [InlineData(-45, "MAX:-45")]
-    public void GetMaxFormatted_Long_Code(long input, string expected)
+    public void Int_GetMaxFormatted_Code(int input, string expected)
     {
         // Arrange && Act
         var act = ErrorCodes.GetMaxFormatted(input);
@@ -134,7 +72,7 @@ public class GetFormattedTests
     [InlineData(0, "MIN:0")]
     [InlineData(10, "MIN:10")]
     [InlineData(45, "MIN:45")]
-    public void GetMinFormatted_ULong_Code(ulong input, string expected)
+    public void UInt_GetMinFormatted_Code(uint input, string expected)
     {
         // Arrange && Act
         var act = ErrorCodes.GetMinFormatted(input);
@@ -149,7 +87,69 @@ public class GetFormattedTests
     [InlineData(0, "MAX:0")]
     [InlineData(10, "MAX:10")]
     [InlineData(45, "MAX:45")]
-    public void GetMaxFormatted_ULong_Code(ulong input, string expected)
+    public void UInt_GetMaxFormatted_Code(uint input, string expected)
+    {
+        // Arrange && Act
+        var act = ErrorCodes.GetMaxFormatted(input);
+
+
+        // Assert
+        act.Should()
+            .Be(expected);
+    }
+
+
+    [Theory]
+    [InlineData(0, "MIN:0")]
+    [InlineData(10, "MIN:10")]
+    [InlineData(-45, "MIN:-45")]
+    public void Long_GetMinFormatted_Code(long input, string expected)
+    {
+        // Arrange && Act
+        var act = ErrorCodes.GetMinFormatted(input);
+
+
+        // Assert
+        act.Should()
+            .Be(expected);
+    }
+
+    [Theory]
+    [InlineData(0, "MAX:0")]
+    [InlineData(10, "MAX:10")]
+    [InlineData(-45, "MAX:-45")]
+    public void Long_GetMaxFormatted_Code(long input, string expected)
+    {
+        // Arrange && Act
+        var act = ErrorCodes.GetMaxFormatted(input);
+
+
+        // Assert
+        act.Should()
+            .Be(expected);
+    }
+
+
+    [Theory]
+    [InlineData(0, "MIN:0")]
+    [InlineData(10, "MIN:10")]
+    [InlineData(45, "MIN:45")]
+    public void ULong_GetMinFormatted_Code(ulong input, string expected)
+    {
+        // Arrange && Act
+        var act = ErrorCodes.GetMinFormatted(input);
+
+
+        // Assert
+        act.Should()
+            .Be(expected);
+    }
+
+    [Theory]
+    [InlineData(0, "MAX:0")]
+    [InlineData(10, "MAX:10")]
+    [InlineData(45, "MAX:45")]
+    public void ULong_GetMaxFormatted_Code(ulong input, string expected)
     {
         // Arrange && Act
         var act = ErrorCodes.GetMaxFormatted(input);
@@ -166,7 +166,7 @@ public class GetFormattedTests
     [InlineData(10, "MIN:10")]
     [InlineData(-45, "MIN:-45")]
     [InlineData(-45.454, "MIN:-45.454")]
-    public void GetMinFormatted_Float_Code(float input, string expected)
+    public void Float_GetMinFormatted_Code(float input, string expected)
     {
         // Arrange && Act
         var act = ErrorCodes.GetMinFormatted(input);
@@ -182,7 +182,7 @@ public class GetFormattedTests
     [InlineData(10, "MAX:10")]
     [InlineData(-45, "MAX:-45")]
     [InlineData(-45.454, "MAX:-45.454")]
-    public void GetMaxFormatted_Float_Code(float input, string expected)
+    public void Float_GetMaxFormatted_Code(float input, string expected)
     {
         // Arrange && Act
         var act = ErrorCodes.GetMaxFormatted(input);
@@ -199,7 +199,7 @@ public class GetFormattedTests
     [InlineData(10, "MIN:10")]
     [InlineData(-45, "MIN:-45")]
     [InlineData(-45.454, "MIN:-45.454")]
-    public void GetMinFormatted_Double_Code(double input, string expected)
+    public void Double_GetMinFormatted_Code(double input, string expected)
     {
         // Arrange && Act
         var act = ErrorCodes.GetMinFormatted(input);
@@ -215,7 +215,7 @@ public class GetFormattedTests
     [InlineData(10, "MAX:10")]
     [InlineData(-45, "MAX:-45")]
     [InlineData(-45.454, "MAX:-45.454")]
-    public void GetMaxFormatted_Double_Code(double input, string expected)
+    public void Double_GetMaxFormatted_Code(double input, string expected)
     {
         // Arrange && Act
         var act = ErrorCodes.GetMaxFormatted(input);
@@ -232,7 +232,7 @@ public class GetFormattedTests
     [InlineData(10, "MIN:10")]
     [InlineData(-45, "MIN:-45")]
     [InlineData(-45.454, "MIN:-45.454")]
-    public void GetMinFormatted_Decimal_Code(decimal input, string expected)
+    public void Decimal_GetMinFormatted_Code(decimal input, string expected)
     {
         // Arrange && Act
         var act = ErrorCodes.GetMinFormatted(input);
@@ -248,7 +248,7 @@ public class GetFormattedTests
     [InlineData(10, "MAX:10")]
     [InlineData(-45, "MAX:-45")]
     [InlineData(-45.454, "MAX:-45.454")]
-    public void GetMaxFormatted_Decimal_Code(decimal input, string expected)
+    public void Decimal_GetMaxFormatted_Code(decimal input, string expected)
     {
         // Arrange && Act
         var act = ErrorCodes.GetMaxFormatted(input);
@@ -266,7 +266,7 @@ public class GetFormattedTests
     [InlineData("1987-01-11", "MIN:1987-01-11")]
     [InlineData("2099-11-01", "MIN:2099-11-01")]
     [InlineData("1977-02-21", "MIN:1977-02-21")]
-    public void GetMinFormatted_DateTime_Code(string input, string expected)
+    public void DateTime_GetMinFormatted_Code(string input, string expected)
     {
         // Arrange
         var dateTime = DateTime.ParseExact(input, "yyyy-MM-dd", CultureInfo.InvariantCulture);
@@ -286,7 +286,7 @@ public class GetFormattedTests
     [InlineData("1987-01-11", "MAX:1987-01-11")]
     [InlineData("2099-11-01", "MAX:2099-11-01")]
     [InlineData("1977-02-21", "MAX:1977-02-21")]
-    public void GetMaxFormatted_DateTime_Code(string input, string expected)
+    public void DateTime_GetMaxFormatted_Code(string input, string expected)
     {
         // Arrange
         var dateTime = DateTime.ParseExact(input, "yyyy-MM-dd", CultureInfo.InvariantCulture);
@@ -306,7 +306,7 @@ public class GetFormattedTests
     [InlineData(0, "MIN:0", "MAX:0")]
     [InlineData(10, "MIN:10", "MAX:10")]
     [InlineData(-45, "MIN:-45", "MAX:-45")]
-    public void GetFormatted_Generic_Code(int input, string minExpected, string maxExpected)
+    public void Generic_GetFormatted_Code(int input, string minExpected, string maxExpected)
     {
         // Arrange
         var obj = new FakeObj<int>(input, input);
