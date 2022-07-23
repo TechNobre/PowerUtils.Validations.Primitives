@@ -38,7 +38,9 @@
     <PackageTags>PowerUtils;Utils;Helpers;Primitives;Validations;Constants;Errors</PackageTags>
     <PackageProjectUrl>https://github.com/TechNobre/PowerUtils.Validations.Primitives</PackageProjectUrl>
     <NeutralLanguage>en-GB</NeutralLanguage>
-    
+
+    <PackageIcon>logo_128x128.png</PackageIcon>
+
     <RepositoryUrl>https://github.com/TechNobre/PowerUtils.Validations.Primitives</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
@@ -61,6 +63,7 @@
 
 
   <ItemGroup Condition="'$(Configuration)'=='Release'">
+    <None Include="..\assets\logo\logo_128x128.png" Pack="true" PackagePath="" />
     <None Include="..\LICENSE" Pack="true" PackagePath="" />
   </ItemGroup>
 

@@ -1,5 +1,8 @@
 # PowerUtils.Validations.Primitives
-Provides additional constants for libraries based on validations
+
+![Logo](https://raw.githubusercontent.com/TechNobre/PowerUtils.Validations.Primitives/main/assets/logo/logo_128x128.png)
+
+***Provides additional constants for libraries based on validations***
 
 ![Tests](https://github.com/TechNobre/PowerUtils.Validations.Primitives/actions/workflows/test-project.yml/badge.svg)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=TechNobre_PowerUtils.Validations.Primitives&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=TechNobre_PowerUtils.Validations.Primitives)
