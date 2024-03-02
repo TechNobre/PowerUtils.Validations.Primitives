@@ -1,5 +1,9 @@
 # PowerUtils.Validations.Primitives
 
+# :warning: DEPRECATED
+
+This package has been discontinued because it never evolved, and the code present in this package does not justify its continuation. It is preferable to implement this code directly in the project.
+
 ![Logo](https://raw.githubusercontent.com/TechNobre/PowerUtils.Validations.Primitives/main/assets/logo/logo_128x128.png)
 
 ***Provides additional constants for libraries based on validations***
@@ -13,16 +17,15 @@
 [![License: MIT](https://img.shields.io/github/license/TechNobre/PowerUtils.Validations.Primitives.svg)](https://github.com/TechNobre/PowerUtils.Validations.Primitives/blob/main/LICENSE)
 
 
-- [Support](#support-to)
-- [How to use](#how-to-use)
-  - [Interfaces](#Interfaces)
-  - [Constants](#Constants)
-  - [Helpers](#Helpers)
-    - [GetMinFormatted](#Helpers.GetMinFormatted)
-    - [GetMaxFormatted](#Helpers.GetMaxFormatted)
+- [Support to ](#support-to-)
+- [How to use ](#how-to-use-)
+  - [Install NuGet package ](#install-nuget-package-)
+  - [Constants ](#constants-)
+  - [Helpers ](#helpers-)
+    - [GetMinFormatted ](#getminformatted-)
+    - [GetMaxFormatted ](#getmaxformatted-)
+- [:warning: Warning](#warning-warning)
 - [Contribution](#contribution)
-- [License](./LICENSE)
-- [Changelog](./CHANGELOG.md)
 
 
 
