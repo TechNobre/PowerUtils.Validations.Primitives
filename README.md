@@ -8,12 +8,6 @@ This package has been discontinued because it never evolved, and the code presen
 
 ***Provides additional constants for libraries based on validations***
 
-![Tests](https://github.com/TechNobre/PowerUtils.Validations.Primitives/actions/workflows/tests.yml/badge.svg)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=TechNobre_PowerUtils.Validations.Primitives&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=TechNobre_PowerUtils.Validations.Primitives)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=TechNobre_PowerUtils.Validations.Primitives&metric=coverage)](https://sonarcloud.io/summary/new_code?id=TechNobre_PowerUtils.Validations.Primitives)
-
-[![NuGet](https://img.shields.io/nuget/v/PowerUtils.Validations.Primitives.svg)](https://www.nuget.org/packages/PowerUtils.Validations.Primitives)
-[![Nuget](https://img.shields.io/nuget/dt/PowerUtils.Validations.Primitives.svg)](https://www.nuget.org/packages/PowerUtils.Validations.Primitives)
 [![License: MIT](https://img.shields.io/github/license/TechNobre/PowerUtils.Validations.Primitives.svg)](https://github.com/TechNobre/PowerUtils.Validations.Primitives/blob/main/LICENSE)
 
 
