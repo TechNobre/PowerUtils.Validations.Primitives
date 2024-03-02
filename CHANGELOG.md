@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/TechNobre/PowerUtils.Validations.Primitives/compare/v1.2.2...v2.0.0) (2024-03-02)
+
+
+### Bug Fixes
+
+* Marked all implementations as `Obsolete` ([90b640e](https://github.com/TechNobre/PowerUtils.Validations.Primitives/commit/90b640e1eb9d61ed8e8409cf1bd01687784e8fc8))
+
+
+### BREAKING CHANGES
+
+* Deprecated package
+
 ## [1.2.2](https://github.com/TechNobre/PowerUtils.Validations.Primitives/compare/v1.2.1...v1.2.2) (2022-07-23)
 
 
